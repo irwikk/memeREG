@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css2?family=Danfo&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kablammo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Tiny5&display=swap);
+
+
+body {
+    margin: 0;
+    font-family: 'Tiny5', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    height: 80px;
+    padding: 10px 25px;
+    background-color: green;
+}
+
+header img {
+    height: 60px;
+}
+
+.m {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.m > a {
+    text-decoration: none;
+    color: purple;
+}
+
+.m > a:hover {
+    color: yellow;
+}
+
+.item1 > a {
+    text-decoration: none;
+    color: purple;
+}
+
+.item1 > a:hover {
+    color: yellow;
+}
+
+.us {
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+
+    gap: 10px;
+    color:  purple;
+
+    font-size: 30px;
+}
+
+.item1 {
+    position: relative;
+}
+
+.logout {
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    display: none;
+
+    background-color: green;
+
+    width: 100%;
+    text-align: center;
+
+    padding: 10px 10px;
+
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.logout > button {
+    background-color: transparent;
+
+    border: none;
+
+    cursor: pointer;
+
+    color: purple;
+    font: inherit;
+}
+
+.logout > button:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.item1:hover > .logout {
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.reg {
+    padding-left: 50px;
+    width: 95%;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+
+    background-color: rgba(0, 255, 0, 0.146);
+    color: purple;
+    font: inherit;
+
+    padding-bottom: 40px;
+    padding-left: 10px;
+    margin: 10px;
+
+    width: 95%;
+    height: 40px;
+}
+
+::placeholder {
+    color: rgba(241, 116, 255, 0.502);
+}
+
+.reg > button {
+    border: none;
+    border-radius: 5px;
+
+    width: 96%;
+    height: 70px;
+
+    text-align: center;
+
+    background-color: lime;
+    color: purple;
+    font: inherit;
+
+    margin-left: 20px;
+    margin-top: 10px;
+
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 60px;
+
+    padding-left: 50px;
+}
