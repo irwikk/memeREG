@@ -97,19 +97,21 @@ header img {
     display: block;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
+.Sreg {
+    margin: 0 auto;
+    width: 80%;
 }
 
 .reg {
-    padding-left: 50px;
-    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 input {
     border: none;
     border-radius: 10px;
+    outline-color: yellow;
 
     background-color: rgba(0, 255, 0, 0.146);
     color: purple;
@@ -117,9 +119,7 @@ input {
 
     padding-bottom: 40px;
     padding-left: 10px;
-    margin: 10px;
 
-    width: 95%;
     height: 40px;
 }
 
@@ -131,23 +131,15 @@ input {
     border: none;
     border-radius: 5px;
 
-    width: 96%;
     height: 70px;
-
-    text-align: center;
 
     background-color: lime;
     color: purple;
     font: inherit;
-
-    margin-left: 20px;
-    margin-top: 10px;
 
     cursor: pointer;
 }
 
 h1 {
     font-size: 60px;
-
-    padding-left: 50px;
 }
